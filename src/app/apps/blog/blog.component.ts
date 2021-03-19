@@ -35,7 +35,7 @@ export class BlogComponent implements OnInit {
   }
 
   viewDetail(id: number) {
-    debugger;
+
     this.service.detailId = id;
     
     if (this.service.loginStatusService)

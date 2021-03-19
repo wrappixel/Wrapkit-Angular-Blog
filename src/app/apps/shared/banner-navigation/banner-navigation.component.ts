@@ -26,12 +26,10 @@ export class BannerNavigationComponent implements OnInit {
   }
 
   fun() {
-    debugger;
     this.logoutStatus = !this.logoutStatus;
   }
 
   logoutClick() {
-    debugger;
     this.service.loginStatusService = false;
     this.logoutStatus=false;
     this.router.navigate([('')]);

@@ -21,7 +21,6 @@ export class NewPostComponent implements OnInit {
   }
 
   submit(data: NgForm) {
-    debugger;
     let b: Blog = new Blog();
 
     b.id = Math.max.apply(Math, this.service.Blogs.map(function (o) { return o.id; })) + 1;
