@@ -1,0 +1,16 @@
+<!-- Row section-->
+<div class="row p-t-20 p-b-20 tclient-box text-white">
+    <!-- column  -->
+
+    <div class="col-lg-3 col-md-6 no-trans" *ngFor='let achive of achivement'>
+        <div class="d-flex no-block">
+            <div class="display-5">
+                <i [class]="achive.icon"></i>
+            </div>
+            <div class="m-l-20">
+                <h1 class="font-light m-b-0 text-white">{{achive.fieldCount}}</h1>
+                <h6 class="font-13 text-uppercase text-white op-7">{{achive.field}}</h6>
+            </div>
+        </div>
+    </div>
+</div>

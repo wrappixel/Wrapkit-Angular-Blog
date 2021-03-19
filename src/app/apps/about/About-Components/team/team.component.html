@@ -1,0 +1,26 @@
+<div class="row m-t-30">
+    <!-- column  -->
+    <div class="col-lg-3 m-b-30" *ngFor='let member of team'>
+        <!-- Row -->
+        <div class="row">
+            <div class="col-md-12 pro-pic">
+                <img [src]="member.image" alt="wrapkit" class="img-responsive rounded-circle" />
+            </div>
+            <div class="col-md-12">
+                <div class="p-t-10">
+                    <h5 class="title font-medium">{{member.name}}</h5>
+                    <h6 class="subtitle">{{member.designation}}</h6>
+                    <p>{{member.comment}}</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item" *ngFor='let follow of member.followOn'>
+                            <a routerLink="#">
+                                <i [class]="follow"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Row -->
+    </div>
+</div>
