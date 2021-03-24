@@ -1,7 +1,8 @@
 import { Blog } from './blog-type';
 export const blogs: Blog[] = [
-    {   id: 1,
-        image: "assets/images/users/3.jpg",
+    {
+        id: 1,
+        image: "assets/images/blog/101.jpg",
         heading: "Magna nostrud incididunt cupidatat cillum incididunt et nisi in ut minim reprehenderit.",
         subHeading: "Labore irure irure laborum quis tempor aliqua. Dude",
         blogDate: "February 19, 2020",
@@ -9,7 +10,7 @@ export const blogs: Blog[] = [
     },
     {
         id: 2,
-        image: 'assets/images/users/4.jpg',
+        image: 'assets/images/blog/202.jpg',
         heading: 'Dolore pariatur amet ullamco aliquip mollit aliqua qui.',
         subHeading: 'Eiusmod ipsum do dolore fugiat consequat quis non qui velit consectetur velit.',
         blogDate: 'February 17, 2020',
@@ -17,11 +18,52 @@ export const blogs: Blog[] = [
     },
     {
         id: 3,
-        image: 'assets/images/users/5.jpg',
+        image: 'assets/images/blog/303.jpg',
+        heading: 'Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.',
+        subHeading: 'Adipisicing sit minim occaecat nulla proident exercitation do laboris.',
+        blogDate: 'February 15, 2020',
+        blogDetail: 'Laboris culpa ea est et aliqua amet ullamco Lorem non enim laborum incididunt ex Lorem. Minim sint cupidatat magna esse labore id. Do qui incididunt consectetur nulla aliquip consequat nostrud incididunt occaecat ad. Excepteur nulla adipisicing enim ea occaecat fugiat dolore sunt est et. Eu veniam nostrud sit aute consectetur dolore ipsum fugiat anim duis.'
+    },
+    {
+        id: 4,
+        image: 'assets/images/blog/404.jpg',
+        heading: 'Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.',
+        subHeading: 'Adipisicing sit minim occaecat nulla proident exercitation do laboris.',
+        blogDate: 'February 15, 2020',
+        blogDetail: 'Laboris culpa ea est et aliqua amet ullamco Lorem non enim laborum incididunt ex Lorem. Minim sint cupidatat magna esse labore id. Do qui incididunt consectetur nulla aliquip consequat nostrud incididunt occaecat ad. Excepteur nulla adipisicing enim ea occaecat fugiat dolore sunt est et. Eu veniam nostrud sit aute consectetur dolore ipsum fugiat anim duis.'
+    },
+    {
+        id: 5,
+        image: 'assets/images/blog/505.jpg',
+        heading: 'Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.',
+        subHeading: 'Adipisicing sit minim occaecat nulla proident exercitation do laboris.',
+        blogDate: 'February 15, 2020',
+        blogDetail: 'Laboris culpa ea est et aliqua amet ullamco Lorem non enim laborum incididunt ex Lorem. Minim sint cupidatat magna esse labore id. Do qui incididunt consectetur nulla aliquip consequat nostrud incididunt occaecat ad. Excepteur nulla adipisicing enim ea occaecat fugiat dolore sunt est et. Eu veniam nostrud sit aute consectetur dolore ipsum fugiat anim duis.'
+    },
+    {
+        id: 6,
+        image: 'assets/images/blog/707.jpg',
+        heading: 'Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.',
+        subHeading: 'Adipisicing sit minim occaecat nulla proident exercitation do laboris.',
+        blogDate: 'February 15, 2020',
+        blogDetail: 'Laboris culpa ea est et aliqua amet ullamco Lorem non enim laborum incididunt ex Lorem. Minim sint cupidatat magna esse labore id. Do qui incididunt consectetur nulla aliquip consequat nostrud incididunt occaecat ad. Excepteur nulla adipisicing enim ea occaecat fugiat dolore sunt est et. Eu veniam nostrud sit aute consectetur dolore ipsum fugiat anim duis.'
+    },
+    {
+        id: 7,
+        image: 'assets/images/blog/808.jpg',
+        heading: 'Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.',
+        subHeading: 'Adipisicing sit minim occaecat nulla proident exercitation do laboris.',
+        blogDate: 'February 15, 2020',
+        blogDetail: 'Laboris culpa ea est et aliqua amet ullamco Lorem non enim laborum incididunt ex Lorem. Minim sint cupidatat magna esse labore id. Do qui incididunt consectetur nulla aliquip consequat nostrud incididunt occaecat ad. Excepteur nulla adipisicing enim ea occaecat fugiat dolore sunt est et. Eu veniam nostrud sit aute consectetur dolore ipsum fugiat anim duis.'
+    },
+    {
+        id: 8,
+        image: 'assets/images/blog/909.jpg',
         heading: 'Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.',
         subHeading: 'Adipisicing sit minim occaecat nulla proident exercitation do laboris.',
         blogDate: 'February 15, 2020',
         blogDetail: 'Laboris culpa ea est et aliqua amet ullamco Lorem non enim laborum incididunt ex Lorem. Minim sint cupidatat magna esse labore id. Do qui incididunt consectetur nulla aliquip consequat nostrud incididunt occaecat ad. Excepteur nulla adipisicing enim ea occaecat fugiat dolore sunt est et. Eu veniam nostrud sit aute consectetur dolore ipsum fugiat anim duis.'
     }
+
 
 ]

@@ -1,44 +1,22 @@
 <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto  align-items-center">
 
-        
-        <li class="nav-item" [routerLinkActive]="['active']" >
-            <a class="nav-link"  routerLink="/">
+
+        <li class="nav-item" [routerLinkActive]="['active']">
+            <a class="nav-link" routerLink="/">
                 Home
             </a>
         </li>
         <li class="nav-item" [routerLinkActive]="['active']">
-            <a class="nav-link"  routerLink="/about">
+            <a class="nav-link" routerLink="/about">
                 About
             </a>
         </li>
+        <li class="nav-item">
+            <a class="btn btn-danger-gradiant font-14" target="_blank" href="https://www.wrappixel.com/free-wrapkit-angular-blog">
+                Download Free
+            </a>
+        </li>
     </ul>
-
-    <div class="act-buttons">
-        <ul class="navbar-nav align-items-center">
-            <li class="nav-item">
-                <a class="btn btn-danger-gradiant font-14">
-                    <span *ngIf='!service.loginStatusService' (click)='loginClick()'>Log
-                        In</span>
-                    <span *ngIf='service.loginStatusService' (click)='newPost()'>New
-                        Post
-                    </span>
-                </a>
-            </li>
-            <li class="nav-item" *ngIf='service.loginStatusService' ngbDropdown>
-                <a ngbDropdownToggle class="nav-link text-muted waves-effect waves-dark pro-pic" href="javascript:void(0)"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img  src="assets/images/users/1.jpg" class="rounded-circle ml-2" alt="Cinque Terre" width="40" height="40" (click)='fun()'>
-                    <i class="ti-angle-down text-white font-12 op-5 ml-2"></i>
-                </a>
-                <div class="user-dd border-0" ngbDropdownMenu>
-                    
-                    <a class="dropdown-item"  (click)='logoutClick()' href="javascript:void(0)">
-                        <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
-                    
-                </div>
-            </li>
-        </ul>
-    </div>
 
 </div>

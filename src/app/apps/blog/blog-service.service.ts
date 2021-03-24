@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { blogs } from './blog-data';
 
 
 @Injectable({
@@ -19,17 +20,8 @@ export class ServiceblogService {
   }
 
   public getBlog(): Observable<any> {
-    return this.http.get<any>('https://api.npoint.io/aba0bbc3361bfc50d277');
+    return of(blogs);
   }
-
-
-  // public login(email: string, pass: string): boolean {
-  //   if (pass === 'admin123' && email === 'admin') {
-  //     this.loginStatus = true;
-  //     return true;
-  //   }
-  //   return false;
-  // }
 
   public addPost(bl: any) {
     this.Blogs.splice(0, 0, bl);
