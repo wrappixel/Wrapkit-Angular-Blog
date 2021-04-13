@@ -7,42 +7,37 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css']
+  styleUrls: ['./blog.component.css'],
 })
 export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
 
-  page = 1;
-  pageSize = 6;
-
-  constructor(public service: ServiceblogService, public router: Router, public http: HttpClient) {
-    this.service.showEdit=false;
-
+  constructor(
+    public service: ServiceblogService,
+    public router: Router,
+    public http: HttpClient
+  ) {
+    this.service.showEdit = false;
   }
 
   ngOnInit(): void {
     if (this.service.Blogs.length === 0)
-      this.service.getBlog().subscribe((d: any) => this.service.Blogs = d);
+      this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
   }
 
   loginClick() {
-    this.router.navigate([('/login')]);
+    this.router.navigate(['/login']);
   }
 
   newPost() {
-    this.router.navigate([('/post')]);
-
+    this.router.navigate(['/post']);
   }
 
   viewDetail(id: number) {
-
     this.service.detailId = id;
-    
-    if (this.service.loginStatusService)
-      this.service.showEdit = true;
 
-    this.router.navigate([('/blogDetail'), id]);
+    if (this.service.loginStatusService) this.service.showEdit = true;
 
+    this.router.navigate(['/blogDetail', id]);
   }
-
 }

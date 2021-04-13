@@ -13,21 +13,13 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
 import { ServiceblogService } from './blog/blog-service.service';
 import { RelayOnComponent } from './about/About-Components/relay-on/relay-on.component';
-import { AchivementComponent } from './about/About-Components/achivement/achivement.component';
-import { TeamComponent } from './about/About-Components/team/team.component';
 import { TopContentComponent } from './about/About-Components/top-content/top-content.component';
 
-
 import { FullComponent } from './layout/full/full.component';
-
 
 import { BannerComponent } from './shared/banner/banner.component';
 import { BannerNavigationComponent } from './shared/banner-navigation/banner-navigation.component';
 import { FooterComponent } from './shared/footer/footer.component';
-
-
-
-
 
 @NgModule({
   declarations: [
@@ -36,14 +28,12 @@ import { FooterComponent } from './shared/footer/footer.component';
     AboutComponent,
     BlogDetailComponent,
     RelayOnComponent,
-    AchivementComponent,
-    TeamComponent,
     TopContentComponent,
     FullComponent,
     BannerComponent,
     // BannerContentComponent,
     BannerNavigationComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule,
@@ -51,8 +41,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [ServiceblogService],
 })
-export class AppsModule { }
+export class AppsModule {}
