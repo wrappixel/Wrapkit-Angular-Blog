@@ -1,11 +1,5 @@
-# <a href="https://demos.wrappixel.com/free-admin-templates/angular/blog-angular-free/main/">Free Wrapkit Angular Blog</a>
+# <a href="https://wrappixel.com/templates/materialm-free-angular-18-material-template">Free Wrapkit Angular Blog</a>
 Wrapkit Angular Blog
-
-<!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/templates/free-wrapkit-angular-blog/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/04/angular-blog.jpg" />
-</a>
-
 
 # Compare with Premium Version 🌓
 
@@ -19,18 +13,18 @@ Wrapkit Angular Blog
 <tbody>
 <tr>
   <td>
-    <a href="https://demos.wrappixel.com/free-admin-templates/angular/blog-angular-free/main/">Live Preview</a>
+    <a href="https://materialm-angular-free.netlify.app">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/angular/blog-angular-free/landingpage/index.html">Live Preview</a>
+  <a href="https://materialm-angular-main.netlify.app/dashboards/dashboard1">Live Preview</a>
   </td>
 </tr>
 <tr>
   <td>
-      <a href="https://www.wrappixel.com/templates/free-wrapkit-angular-blog/">Download Now</a>
+      <a href="https://wrappixel.com/templates/free-wrapkit-angular-blog"><b>Download Now</b></a>
   </td>
   <td>
-    <a href="https://www.wrappixel.com/templates/wrapkit-angular-blog/">Purchase Now</a>
+    <a href="https://wrappixel.com/templates/materialm-material-angular-dashboard-template"><b>Purchase Now</b></a>
   </td>
 </tr>
 <tr>
@@ -118,29 +112,29 @@ Wrapkit Angular Blog
 
 # Upgrade to Premium version
 
-<a target="_blank" href="https://www.wrappixel.com/templates/wrapkit-angular-blog/?ref33">
+<a target="_blank" href="https://wrappixel.com/templates/wrapkit-angular-blog?ref33">
   <img src="https://www.wrappixel.com/wp-content/uploads/2021/04/wrapkitangular-blog.jpg" alt="">
 </a>
 <p>
   Checkout our premium version of Wrapkit Angular Blog for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/angular/blog-angular-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/wrapkit-angular-blog/?ref33">Download</a>
+  <a href="https://materialm-angular-main.netlify.app/dashboards/dashboard1">Check Live Preview</a> | <a href="https://wrappixel.com/templates/materialm-material-angular-dashboard-template"><b>Download</b></a>
 </p>
 
 
 
 <!-- Useful Links of Template -->
 # Useful Links
-- <p><a href="https://www.wrappixel.com/">Admin Theme</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro/">Bootstrap Themes</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-lite/">Free Bootstrap Admin Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/">React Bootstrap Template</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Vuejs Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com"><b>Admin Theme</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/materialpro"><b>Bootstrap Themes</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/materialpro-lite"><b>Free Bootstrap Admin Templates</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/materialpro-react-redux-admin"><b>React Bootstrap Template</b></a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/materialpro-vuetify-admin"><b>Vuejs Templates</b></a> from Wrappixel</p>
 
 
 <!-- Licensing of Template -->
 # Licensing
-- <p>Copyright 2024 Wrappixel <a href="https://www.wrappixel.com/">https://wrappixel.com/</a></p>
-- <p>Licensed under MIT <a href="https://www.wrappixel.com/license/">https://wrappixel.com/license/</a></p>
+- <p>Copyright 2024 Wrappixel <a href="https://wrappixel.com"><b>https://wrappixel.com</b></a></p>
+- <p>Licensed under MIT <a href="https://wrappixel.com/license"><b>https://wrappixel.com/license</b></a></p>
 
 
 <!-- Social Media of Adminmart -->
@@ -152,5 +146,3 @@ Wrapkit Angular Blog
 - <p>Medium: <a href="https://medium.com/wrappixel">https://medium.com/wrappixel</a></p>
 - <p>Discord: <a href="https://discord.com/invite/eMzE8F6Wqs">https://discord.com/invite/eMzE8F6Wqs</a></p>
 - <p>Youtube: <a href="https://www.youtube.com/channel/UCdFDlrhIchtxF8EmxejUPGQ">https://www.youtube.com/channel/UCdFDlrhIchtxF8EmxejUPGQ</a></p>
-
-
